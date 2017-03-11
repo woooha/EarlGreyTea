@@ -1,0 +1,6 @@
+framework module Pods_EarlGreyTea_Tests {
+  umbrella header "Pods-EarlGreyTea_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

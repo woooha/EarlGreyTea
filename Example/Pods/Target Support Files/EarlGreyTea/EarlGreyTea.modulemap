@@ -1,0 +1,6 @@
+framework module EarlGreyTea {
+  umbrella header "EarlGreyTea-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - EarlGreyTea (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EarlGreyTea (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EarlGreyTea:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EarlGreyTea: a731349dbb44a8c5cb2350aa7a8f3806748d0867
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 1511392dfb5edf6869eb5423dce068fda7ce8f7f
+
+COCOAPODS: 1.1.1
