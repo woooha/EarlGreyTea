@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EarlGreyTea_Example' do
+  pod 'EarlGreyTea', :path => '../'
+
+  target 'EarlGreyTea_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
