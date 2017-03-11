@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   So, I want to build an easy to user wrapper to help you use the EarlGrey and do better UI test.
                        DESC
 
-  s.homepage         = 'https://git.zerozero.com/yangfan/EarlGreyTea'
+  s.homepage         = 'https://github.com/woooha/EarlGreyTea'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yangfan' => 'yangfan@zerozero.cn' }
-  s.source           = { :git => 'https://github.com/yangfan/EarlGreyTea.git', :tag => s.version.to_s }
+  s.author           = { 'woooha' => 'woooha@gmail.com ' }
+  s.source           = { :git => 'git@github.com:woooha/EarlGreyTea.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -42,5 +42,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'EarlGrey', '~> 1.7'
+  # s.dependency 'EarlGrey', '~> 1.7'
 end
